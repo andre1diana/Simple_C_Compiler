@@ -1,0 +1,35 @@
+int a = 5;
+float b = 3.1f;
+double c = 4.6;
+
+int a1 = 4 + 3;
+
+a + b;
+
+b = 3.2f;
+
+double var = (double)a;
+
+float variabila = (float)a;
+
+int clc = 8 + (int)7.5;
+
+
+//this is a comment
+
+/* this is a multiple
+line comment*/
+
+printf ("This is a string");
+printf("Operand : clc este %d", clc);
+
+printf("clc = ");
+scanf("%d", clc);
+
+{ 
+    int x = 10; 
+    printf("global variable : %d", clc); 
+} 
+
+printf("%d", x);
+// x not accesible here
